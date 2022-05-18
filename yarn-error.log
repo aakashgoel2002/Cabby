@@ -1,0 +1,50 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\AH_GL\AppData\Roaming\npm\node_modules\@sanity\cli\vendor\yarn install --json --non-interactive --ignore-engines --network-timeout 60000 --registry https://registry.npmjs.org
+
+PATH: 
+  C:\Users\AH_GL\AppData\Roaming\npm\node_modules\vendor;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\TDM-GCC-64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Python310;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Python310\python.exe;C:\Users\AH_GL\AppData\Local\Microsoft\WindowsApps;C:\Users\AH_GL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\bin;C:\Users\AH_GL\AppData\Roaming\npm;C:\Users\AH_GL\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\AH_GL\Desktop\cabby\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node'
+
+npm manifest: 
+  {
+    "name": "cabby",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "icons": "^1.0.0",
+      "mapbox-gl": "^2.8.2",
+      "next": "12.1.6",
+      "react": "^18.1.0",
+      "react-dom": "18.1.0"
+    },
+    "devDependencies": {
+      "autoprefixer": "^10.4.7",
+      "eslint": "8.14.0",
+      "eslint-config-next": "12.1.6",
+      "postcss": "^8.4.13",
+      "tailwindcss": "^3.0.24"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
